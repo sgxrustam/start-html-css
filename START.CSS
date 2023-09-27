@@ -38,7 +38,6 @@ height: 700px;
     flex-direction: column;
     justify-content: space-between;
     margin: 10px;
-    height: 100%;
 }
 
 .monday_card_header{
@@ -100,39 +99,46 @@ height: 700px;
 
 .lo{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     width: 540px;
+    
 }
 .la{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 1px; */
     height: 80px;
     width: 250px;
     background-color: #fff;
     margin: 10px;
     border-radius: 8px;
 }
+
+.other-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .la P{
     padding: 0 10px;
     font-size: 20px;
 }
-.li{
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.strelochki{
     height: 80px;
     width: 520px;
     background-color: #fff;
     margin: 10px;
     border-radius: 8px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .soloshko_i_oblochki{
