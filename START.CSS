@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+hr{
+      margin: 10px 0px;
+}
+body{
+    background: rgb(23, 87, 122);
+    background: linear-gradient(0deg, rgba(23, 87, 122, 1) 0%, rgba(94, 203, 237, 1) 100%);
+}   
+.header{ 
+padding: 20px;
+text-decoration: underline overline;
+color: #fff;
+text-align: center;
+}
+.weather{
+height: 700px;
+}
+.content{
+    margin: 0 125px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+.monday_card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    height: 100%;
+}
+
+.monday_card_header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 100%;
+}
+
+.button{
+    font-size: 15px;
+    border: 0px;
+    background-color: #fff;
+}
+
+.monday_card_date{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monday_card_info{
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monday_card_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.lu{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.monday_card_info_p{
+    display: flex;
+    font-size: 15px;
+}
+
+.monday_card_gradus{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+    align-items: end;
+    align-items: flex-end;   
+}
+
+
+.p1{ 
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.lo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 540px;
+}
+.la{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 1px; */
+    height: 80px;
+    width: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+}
+.la P{
+    padding: 0 10px;
+    font-size: 20px;
+}
+.li{
+    height: 80px;
+    width: 520px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.soloshko_i_oblochki{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 840px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+}
+.pizdec{ 
+    margin: 100px 0 10px 0;
+    color: #fff;
+    font-size: 30px;
+}
